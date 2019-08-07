@@ -109,4 +109,23 @@ p {
   color: #070439;
   float: right;
 }
+
+.illustration {
+  height: 100%;
+  width: 45%;
+  float: left;
+  background: url("./images/bg-intro.svg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.illustration img {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin: auto;
+  padding: 50px;
+  width: 100%;
+}
 /*# sourceMappingURL=styles.css.map */
