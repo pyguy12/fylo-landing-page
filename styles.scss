@@ -1,0 +1,56 @@
+//Colors
+$color-soft-blue: hsl(243, 86%, 85%);
+$color-dark-blue: hsl(243, 87%, 12%);
+$color-green: hsl(163, 95%, 43%);
+$color-gray: hsl(0, 0%, 50%);
+
+//Global
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  padding: 70px;
+  width: 55%;
+  float: right;
+}
+
+//Navbar
+.navbar {
+  padding: 0;
+  margin: 0 0 33% 0;
+
+  &__logo {
+    float: left;
+  }
+
+  &__social-links {
+    overflow: hidden;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__link {
+      float: left;
+
+      &:not(last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}

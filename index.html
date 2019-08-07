@@ -6,11 +6,18 @@
     <!-- displays site properly based on user's device -->
 
     <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
+    <link rel="stylesheet" href="styles.css" />
 
     <script src="https://kit.fontawesome.com/201b80b256.js"></script>
 
@@ -28,41 +35,44 @@
     </style>
   </head>
   <body>
-    <nav class="navbar">
-      <img src="./images/logo.svg" alt="logo" class="navbar__logo" />
-      <ul class="social-links">
-        <li class="social-links__link">
-          <i class="fab fa-twitter"></i>
-        </li>
-        <li class="social-links__link">
-          <i class="fab fa-facebook-f"></i>
-        </li>
-        <li class="social-links__link">
-          <i class="fas fa-envelope"></i>
-        </li>
-      </ul>
-    </nav>
-    <section class="illustration">
+    <div class="container">
+      <nav class="navbar">
+        <img src="./images/logo.svg" alt="logo" class="navbar__logo" />
+        <ul class="navbar__social-links">
+          <li class="navbar__social-links__link">
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li class="navbar__social-links__link">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li class="navbar__social-links__link">
+            <i class="fas fa-envelope"></i>
+          </li>
+        </ul>
+      </nav>
+      <section class="sign-up">
+        <h1 class="sign-up__header-text">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="sign-up__paragraph-text">
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family and co-workers.
+        </p>
+        <form class="sign-up__form">
+          <label for="email-field" class="sign-up__header-text--small"
+            >Sign up for early access Sign Up</label
+          >
+          <input type="text" id="email-field" />
+          <input type="submit" value="Sign Up" />
+        </form>
+        <a id="privacy-policy-link" href="#">Privacy Policy</a>
+      </section>
+    </div>
+
+    <aside class="illustration">
       <img src="./images/illustration-main.svg" alt="illustration" />
-    </section>
-    <section class="sign-up">
-      <h1 class="sign-up__header-text">
-        All your files in one secure location, accessible anywhere.
-      </h1>
-      <p class="sign-up__paragraph-text">
-        Fylo stores all your most important files in one secure location. Access
-        them wherever you need, share and collaborate with friends, family and
-        co-workers.
-      </p>
-      <form class="sign-up__form">
-        <label for="email-field" class="sign-up__header-text--small"
-          >Sign up for early access Sign Up</label
-        >
-        <input type="text" id="email-field" />
-        <input type="submit" value="Sign Up" />
-      </form>
-      <a id="privacy-policy-link" href="#">Privacy Policy</a>
-    </section>
+    </aside>
 
     <footer>
       <p class="attribution">

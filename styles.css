@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  padding: 70px;
+  width: 55%;
+  float: right;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0 0 33% 0;
+}
+
+.navbar__logo {
+  float: left;
+}
+
+.navbar__social-links {
+  overflow: hidden;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar__social-links__link {
+  float: left;
+}
+
+.navbar__social-links__link:not(last-child) {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
