@@ -21,10 +21,17 @@ body {
 
 h1 {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  color: $color-gray;
 }
 
 .container {
-  padding: 70px;
+  padding: 4% 10%;
   width: 55%;
   float: right;
 }
@@ -52,5 +59,15 @@ h1 {
         margin-right: 30px;
       }
     }
+  }
+}
+
+//Sign-up section
+.sign-up {
+  width: 100%;
+
+  &__header-text {
+    color: $color-dark-blue;
+    margin-bottom: 40px;
   }
 }

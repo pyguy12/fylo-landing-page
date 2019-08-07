@@ -16,10 +16,17 @@ body {
 
 h1 {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  color: gray;
 }
 
 .container {
-  padding: 70px;
+  padding: 4% 10%;
   width: 55%;
   float: right;
 }
@@ -47,5 +54,14 @@ h1 {
 
 .navbar__social-links__link:not(last-child) {
   margin-right: 30px;
+}
+
+.sign-up {
+  width: 100%;
+}
+
+.sign-up__header-text {
+  color: #070439;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
