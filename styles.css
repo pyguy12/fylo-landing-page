@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   color: gray;
 }
 
@@ -32,19 +32,17 @@ p {
 }
 
 .navbar {
-  padding: 0;
-  margin: 0 0 33% 0;
+  margin: 0 0 30% 0;
 }
 
 .navbar__logo {
+  height: 24px;
   float: left;
 }
 
 .navbar__social-links {
   overflow: hidden;
   float: right;
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -63,5 +61,52 @@ p {
 .sign-up__header-text {
   color: #070439;
   margin-bottom: 40px;
+}
+
+.sign-up__paragraph-text {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.sign-up .form__label {
+  color: #070439;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sign-up .form #email-field {
+  padding: 10px;
+  border-radius: 5px;
+  width: 67%;
+  height: 48px;
+  background: #fff;
+  border: none;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+  margin-right: 10px;
+}
+
+.sign-up .form__submit {
+  float: right;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+  width: 30%;
+  height: 48px;
+  border: none;
+  background: #05d69b;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+}
+
+.sign-up #privacy-policy-link {
+  margin-top: 20%;
+  font-size: 12px;
+  color: #070439;
+  float: right;
 }
 /*# sourceMappingURL=styles.css.map */

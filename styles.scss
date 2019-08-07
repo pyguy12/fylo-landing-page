@@ -26,7 +26,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   color: $color-gray;
 }
 
@@ -38,18 +38,16 @@ p {
 
 //Navbar
 .navbar {
-  padding: 0;
-  margin: 0 0 33% 0;
+  margin: 0 0 30% 0;
 
   &__logo {
+    height: 24px;
     float: left;
   }
 
   &__social-links {
     overflow: hidden;
     float: right;
-    margin: 0;
-    padding: 0;
     list-style: none;
 
     &__link {
@@ -69,5 +67,53 @@ p {
   &__header-text {
     color: $color-dark-blue;
     margin-bottom: 40px;
+  }
+
+  &__paragraph-text {
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 80px;
+  }
+
+  //Sign-up form
+  .form {
+    &__label {
+      color: $color-dark-blue;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    & #email-field {
+      padding: 10px;
+      border-radius: 5px;
+      width: 67%;
+      height: 48px;
+      background: #fff;
+      border: none;
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+      margin-right: 10px;
+    }
+
+    &__submit {
+      float: right;
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      border-radius: 5px;
+      width: 30%;
+      height: 48px;
+      border: none;
+      background: $color-green;
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.116);
+    }
+  }
+
+  #privacy-policy-link {
+    margin-top: 20%;
+    font-size: 12px;
+    color: $color-dark-blue;
+    float: right;
   }
 }
