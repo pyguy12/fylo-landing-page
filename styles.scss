@@ -36,6 +36,7 @@ p {
 }
 
 .container {
+  height: 100vh;
   overflow: hidden;
   padding: 70px 9.2%;
   width: 52.7%;
@@ -133,7 +134,7 @@ p {
   background-color: #110a6d;
   background-image: linear-gradient(225deg, #110a6d, #bdbafa 200%);
   background-size: 150%;
-  padding: 50px;
+  padding: 80px;
 
   & img {
     display: block;
