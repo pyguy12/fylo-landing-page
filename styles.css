@@ -32,7 +32,6 @@ p {
 
 .container {
   height: 100vh;
-  overflow: hidden;
   padding: 70px 9.2%;
   width: 52.7%;
   position: absolute;
@@ -133,10 +132,11 @@ p {
   width: 75%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .container {
+    height: auto;
     color: white;
-    padding: 30px 7%;
+    padding: 30px;
     width: 100vw;
   }
   #navbar__logo__words {
@@ -146,6 +146,7 @@ p {
     position: absolute;
     background: url("./images/bg-intro.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     width: 100vw;
     float: none;
   }
@@ -154,12 +155,15 @@ p {
   }
   .sign-up__header-text {
     font-size: 25px;
-    margin-top: 130%;
+    margin-top: 150%;
     margin-bottom: 15px;
   }
   .sign-up__paragraph-text {
     margin-bottom: 30px;
     width: 100%;
+  }
+  .sign-up .form__label {
+    margin-bottom: 15px;
   }
   .sign-up .form #email-field {
     padding: 10px;
@@ -176,6 +180,12 @@ p {
     height: 40px;
     width: 45%;
     float: none;
+  }
+  .attribution {
+    margin-top: 10% !important;
+  }
+  #privacy-policy-link {
+    margin-top: 10% !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
