@@ -38,6 +38,11 @@ p {
   right: 0;
 }
 
+a:link,
+a:visited {
+  color: #070439;
+}
+
 .navbar {
   margin: 0 0 30% 0;
 }
@@ -133,9 +138,12 @@ p {
 }
 
 @media screen and (max-width: 650px) {
+  a:link,
+  a:visited {
+    color: white;
+  }
   .container {
     height: auto;
-    color: white;
     padding: 30px;
     width: 100vw;
   }
